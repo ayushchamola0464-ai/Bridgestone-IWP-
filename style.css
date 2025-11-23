@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.gj {
+    background-image: url('BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+
+    /* Dark overlay for readability */
+    position: relative;
+}
+
+body.gj::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+    z-index: -1;
+}
+
+.jk {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.img {
+    margin-left: 40px;
+    margin-right: 20px;
+    height: 70px;
+    width: auto;        /* keeps proportions PERFECT */
+    object-fit: contain;
+}
+
+.n {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main {
+    margin-top: 160px;
+    text-align: center;
+}
+
+/* Headings */
+.dd h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.dd p {
+    color: #f0f0f0;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.vb {
+    margin-top: 10px;
+}
+
+.op {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    margin: 10px;
+}
+
+.op:hover {
+    background-color: #ffffff;
+}
+
+.op a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+}
+
+.op:hover a {
+    color: black;
+}
+
+.mk {
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.h {
+    color: #f5f5f5;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.4rem;
+}
